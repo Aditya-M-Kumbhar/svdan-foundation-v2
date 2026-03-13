@@ -10,6 +10,7 @@ import clean from '../assets/projects/cleanliness_drive.jpeg'
 import fort from '../assets/projects/fort_conservation.jpeg'
 import school from '../assets/projects/school_kit.jpeg'
 import ambulance from '../assets/projects/ambulance_donation.jpeg'
+import teams from '../assets/work/teams.jpeg'
 
 const projects = [
   {
@@ -53,6 +54,13 @@ const projects = [
     title: 'Ambulance Donation Initiative',
     description: 'During the pandemic, many people faced difficulties accessing healthcare. By donating an ambulance, the foundation helped ensure patients from rural and economically weaker sections could reach hospitals quickly and safely.',
     color: 'bg-orange-500',
+  },
+  {
+  id: 'work-teams',
+  image: teams,
+  title: 'Social Internship Program',
+  description: 'Assist students in their education and organize social internships that help them understand real societal challenges and develop a sense of social responsibility.',
+  color: 'bg-purple-500',
   },
 ]
 
